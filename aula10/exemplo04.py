@@ -14,3 +14,7 @@ except ZeroDivisionError:
    print('Funcionário não pode ser Zero. ')
 else:
    print(f"Média por funcionário: {media_por_funcionario:.2f}")
+   
+#Executa sempre. Com erro ou não, o bloco finally sempre irá executar.
+finally:
+   print('Programa encerrado!')
